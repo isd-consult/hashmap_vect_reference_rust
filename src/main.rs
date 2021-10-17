@@ -3,7 +3,6 @@ use std::collections::HashMap;
 use reference::{average, string_ref};
 
 fn main() {
-
     let mut v:Vec<isize> = Vec::new();
     let mut map = HashMap::new();
     loop {
