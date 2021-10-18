@@ -1,6 +1,6 @@
 use std::io;
 use std::collections::HashMap;
-use reference::{average, string_ref};
+use average::string_ref;
 
 fn main() {
     let mut v:Vec<isize> = Vec::new();
@@ -26,7 +26,7 @@ fn main() {
                 let pigletters = string_ref::convert_pig_latin(& mut input.trim().to_string());
                     println!("{}", pigletters);
             }
-        } else{
+        } else {
             let input = input.trim().parse().expect("please insert number!");
             v.push(input);
             let count = map.entry(input).or_insert(0);

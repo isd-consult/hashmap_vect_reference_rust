@@ -1,4 +1,5 @@
     use std::collections::HashMap;
+    pub mod string_ref;
     pub fn most_open (map: & HashMap<isize, isize>) -> Option<& isize> {
         map
             .iter()

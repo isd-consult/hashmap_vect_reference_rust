@@ -1,6 +1,6 @@
-pub mod average;
+// pub mod average;
 
-pub mod string_ref{
+// pub mod string_ref{
     pub fn convert_pig_latin(param: & mut String) ->String {
         let first_letter = param.chars().next();
         match first_letter {
@@ -17,7 +17,4 @@ pub mod string_ref{
             }
         }
     }
-}
-
-
-
+// }
